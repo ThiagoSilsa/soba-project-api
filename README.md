@@ -10,7 +10,7 @@ API RESTful desenvolvida em **Node.js** com **Express**, **Prisma ORM** e arquit
 - **Node.js** – Ambiente de execução JavaScript no servidor  
 - **Express.js** – Framework minimalista para criação de rotas e middlewares  
 - **Prisma ORM** – Mapeamento objeto-relacional para manipulação do banco de dados  
-- **SQLite / PostgreSQL / MySQL** – (Defina o banco utilizado)  
+- **MySQL** – Banco de dados
 - **Nodemon** – Hot reload para ambiente de desenvolvimento  
 - **Cors** – Habilitação de acessos cross-origin  
 - **Dotenv** – Gerenciamento de variáveis de ambiente  
@@ -23,7 +23,6 @@ API RESTful desenvolvida em **Node.js** com **Express**, **Prisma ORM** e arquit
 📦 soba-api
 ├── 📁 src
 │   ├── 📁 controllers     # Lógica de controle entre rotas e modelos
-│   ├── 📁 models          # (Se aplicável) Modelos Prisma ou classes de domínio
 │   ├── 📁 routes          # Definição das rotas da aplicação
 │   ├── 📁 services        # Regras de negócio e integração entre camadas
 │   ├── 📁 middlewares     # Validação, autenticação e tratamento de erros
